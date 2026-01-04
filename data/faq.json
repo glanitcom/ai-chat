@@ -1,0 +1,39 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "How do I place an order?",
+      "answer": "You can place an order through our website, by calling us, or by sending an email request.",
+      "keywords": ["order", "buy", "purchase", "place order"],
+      "category": "Orders"
+    },
+    {
+      "id": 2,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, credit cards, bank transfers, and electronic payment systems.",
+      "keywords": ["payment", "pay", "card", "cash", "transfer"],
+      "category": "Payment"
+    },
+    {
+      "id": 3,
+      "question": "What is the delivery cost?",
+      "answer": "Delivery cost depends on the region and weight of the item. Please contact a manager for detailed information.",
+      "keywords": ["delivery", "delivery cost", "shipping", "courier"],
+      "category": "Delivery"
+    },
+    {
+      "id": 4,
+      "question": "What is the delivery time?",
+      "answer": "Delivery time depends on the region. Within the city - 1-2 days, nationwide - 3-7 business days.",
+      "keywords": ["delivery time", "when will arrive", "shipping time"],
+      "category": "Delivery"
+    },
+    {
+      "id": 5,
+      "question": "Can I return the product?",
+      "answer": "Yes, you can return the product within 14 days of purchase, provided the product and packaging are in original condition.",
+      "keywords": ["return", "refund", "exchange", "warranty"],
+      "category": "Returns"
+    }
+  ]
+}

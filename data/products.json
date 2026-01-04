@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "description": "Product A description with main features",
+      "price": 100,
+      "currency": "USD",
+      "availability": true,
+      "category": "Category 1",
+      "features": [
+        "Feature 1",
+        "Feature 2",
+        "Feature 3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "description": "Product B description with main features",
+      "price": 150,
+      "currency": "USD",
+      "availability": true,
+      "category": "Category 2",
+      "features": [
+        "Feature A",
+        "Feature B"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "description": "Product C description with main features",
+      "price": 75,
+      "currency": "USD",
+      "availability": false,
+      "category": "Category 1",
+      "features": [
+        "Feature X",
+        "Feature Y"
+      ]
+    }
+  ]
+}

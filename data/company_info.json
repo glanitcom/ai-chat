@@ -1,0 +1,13 @@
+{
+  "name": "Company Name",
+  "description": "Company activity description",
+  "contact": {
+    "phone": "+1 (123) 456-7890",
+    "email": "info@company.com",
+    "addresses": [
+      "123 Main Street, City, State 12345",
+      "456 Business Ave, City, State 67890"
+    ]
+  },
+  "workingHours": "Mon-Fri: 9:00-18:00, Sat-Sun: Closed"
+}

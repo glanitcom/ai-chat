@@ -1,0 +1,24 @@
+{
+  "competitors": [
+    "competitor1",
+    "competitor2",
+    "competitor3"
+  ],
+  "escalationTriggers": [
+    "want to speak with manager",
+    "need a human",
+    "connect me with operator",
+    "want to talk to a person",
+    "switch to operator",
+    "give me operator",
+    "need specialist",
+    "complex question",
+    "cannot figure out"
+  ],
+  "forbiddenTopics": [
+    "politics",
+    "religion",
+    "personal data",
+    "confidential information"
+  ]
+}
