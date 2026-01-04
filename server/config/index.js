@@ -42,5 +42,11 @@ module.exports = {
     blockDuration: parseInt(process.env.RATE_LIMIT_BLOCK_DURATION_MS) || 300000,
     maxRequestsPerMinute: parseInt(process.env.RATE_LIMIT_MAX_PER_MINUTE) || 20,
     maxRequestsPerDay: parseInt(process.env.RATE_LIMIT_MAX_PER_DAY) || 10000
+  },
+  security: {
+    requireApiKey: process.env.REQUIRE_API_KEY === 'true',
+    clientApiKeys: process.env.CLIENT_API_KEYS ? process.env.CLIENT_API_KEYS.split(',').map(k => k.trim()) : [],
+    trustProxy: process.env.TRUST_PROXY === 'true',
+    trustedProxies: process.env.TRUSTED_PROXIES ? process.env.TRUSTED_PROXIES.split(',').map(p => p.trim()) : []
   }
 };

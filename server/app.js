@@ -10,6 +10,7 @@ const errorHandler = require('./utils/errorHandler');
 const logger = require('./utils/logger');
 const config = require('./config');
 const { rateLimitMiddleware } = require('./utils/rateLimiter');
+const { authenticateApiKey, optionalAuth } = require('./utils/auth');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -43,7 +44,13 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.set('trust proxy', process.env.TRUST_PROXY === 'true' || false);
+
+app.use('/api/chat', optionalAuth);
 app.use('/api/chat', rateLimitMiddleware);
+if (process.env.REQUIRE_API_KEY === 'true') {
+  app.use('/api/chat', authenticateApiKey);
+}
 app.use('/api/chat', chatRoutes);
 
 app.get('/health', (req, res) => {

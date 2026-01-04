@@ -1,7 +1,7 @@
 {
   "name": "ai-chat-assistant",
   "version": "1.0.0",
-  "description": "AI chat assistant for company with support for Grok 4, Gemini 3 PRO and ChatGPT 5",
+  "description": "AI chat assistant for company with support for Grok 4, Gemini 2.5 Flash and ChatGPT 5",
   "main": "server/app.js",
   "type": "commonjs",
   "scripts": {
