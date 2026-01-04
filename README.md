@@ -409,4 +409,4 @@ To use the client:
 
 ## License
 
-ISC
+GNU General Public License v3.0
